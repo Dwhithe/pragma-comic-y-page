@@ -1,0 +1,61 @@
+/* escenario 5 */
+.e5 {
+    /*  position: relative !important; */
+     top: 0%;
+ }
+ .flecha5{
+     position: absolute;
+     top: 67%;
+     left: 43%;
+     width: 6rem;
+     animation: flecha2 1s ease-in-out infinite both;
+     cursor: pointer;
+ }
+ 
+ .profesor5{
+     position: absolute!important;
+     top: 6%!important;
+     left: -9%!important;
+     
+ }
+ .pueblerino5{
+     position: absolute!important;
+     top: 17%!important;
+     left: 29%!important;
+     
+ }
+ .Dialogo3{
+     position: absolute!important;
+     top: 3%!important;
+     left: 9%!important;
+     display: none !important;
+ }
+ .Dialogo1{
+     position: absolute!important;
+     top: 7%!important;
+     left: -8%!important;
+     display: none !important;
+     height:33rem !important;
+ }
+ .Dialogo2{
+     position: absolute!important;
+     top: 3%!important;
+     left: 7%!important;
+     display: none !important;
+     height: 34em;
+ }
+ 
+ .nube5 {
+     position: absolute !important;
+     top: 0%;
+ }
+ 
+ .flecha5jarron{
+    display: none;
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+ }

@@ -1,0 +1,116 @@
+/* escenario 10 */
+.flecha10{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+.img10-1 {
+    position: relative !important;
+}
+
+.img10-2 {
+    position: absolute !important;
+    top: 0%;
+}
+.pueblerinoazul{
+ position: absolute !important;
+    top: 1rem;
+    left: 7rem;
+    animation: bounce 1.3s both infinite;
+  animation-play-state: paused;
+}
+.pueblerinorojo{
+ position: absolute !important;
+    top: 2rem;
+    left: 7rem;
+    animation: bounce 1.3s both infinite;
+  animation-play-state: paused;
+}
+.token10{
+ position: absolute !important;
+    top: 0%;
+    animation: bounce 1.3s both infinite;
+  animation-play-state: paused;
+}
+.profesor10{
+ position: absolute !important;
+    top: 0%;
+    animation: bounce 1.3s both infinite;
+  animation-play-state: paused;
+}
+.texto10{
+     position: absolute !important;
+    top: 0%;
+}
+
+@keyframes bounce {
+  0% {
+transform: translateY(-45px);
+ animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+transform: translateY(-24px);
+animation-timing-function: ease-in;
+  }
+  65% {
+transform: translateY(-12px);
+animation-timing-function: ease-in;
+  }
+  82% {
+transform: translateY(-6px);
+animation-timing-function: ease-in;
+  }
+  93% {
+ transform: translateY(-4px);
+ animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+transform: translateY(0px);
+ animation-timing-function: ease-out;
+  }
+  100% {
+ transform: translateY(0px);
+ animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+/* .movimiento10 {
+    animation: movimientoM2 5s ease-in-out forwards;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes movimientoM2 {
+    0% {
+      transform: translate(0,0);
+    }
+    15% {
+      transform: translate(0px,25px); 
+    }
+    30% {
+        transform: translate(0px,-50px); 
+      }
+    45% {
+        transform: translate(0px,25px); 
+      }
+    60% {
+        transform: translate(0px,-50px); 
+      }
+    75% {
+        transform: translate(0px,25px); 
+      }
+    100% {
+        transform: translate(0px,0px); 
+      }
+  }
+ */

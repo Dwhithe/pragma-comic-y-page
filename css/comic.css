@@ -1,0 +1,1041 @@
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+/* Assets */
+.assets1 {
+    position: relative;
+
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.assets2 {
+    position: relative;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.assets3 {
+    position: relative;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.assets4 {
+    position: relative;
+    left: 90%;
+    width: 5rem !important;
+    height: 5rem !important;
+}
+
+/* boton de informacion */
+.boton1 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+}
+
+
+.boton2 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton3 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+}
+
+.boton4 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+
+}
+
+.boton5 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton6 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton7 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton8 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton9 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+}
+
+.boton10 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+
+
+
+
+/* escenario 1 */
+
+.flecha1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6rem;
+    animation: pulsate-fwd 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+@media (max-width:300px) {
+    .flecha1 {
+        width: 30rem;
+    }
+
+    .flecha2 {
+        width: 30rem;
+    }
+
+    .flecha3 {
+        width: 30rem;
+    }
+}
+
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+/* fin de la flecha */
+
+.img1-1 {
+    position: relative !important;
+}
+
+.img1-2 {
+    position: absolute !important;
+    top: 7%;
+    height: 40rem;
+    cursor: pointer;
+
+}
+
+.escala-mundo {
+    animation: escala 2s linear forwards;
+}
+
+@keyframes escala {
+    0% {
+
+        transform: scale(1);
+    }
+
+    100% {
+
+        transform: scale(2);
+    }
+}
+
+.img1-3 {
+    position: absolute !important;
+    top: 0%;
+    animation: stars 1.5s linear infinite;
+
+}
+
+@keyframes stars {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+
+/* meteorito escenario 1 */
+.meteorito1 {
+    position: absolute !important;
+    top: 23%;
+    left: 56%;
+
+}
+
+.mover-meteorito {
+    animation: meteorito1 4s linear forwards, meteoroscale 4s linear forwards;
+
+    /*  animation-delay: 1s; */
+}
+
+@keyframes meteorito1 {
+    0% {
+        translate: 10%;
+    }
+
+    100% {
+        translate: -70%;
+
+
+    }
+
+}
+
+@keyframes meteoroscale {
+    100% {
+        transform: scale(0.1);
+
+    }
+}
+
+.cuadrotexto1 {
+    position: absolute;
+    left: 7%;
+    background-color: whitesmoke;
+    height: 10%;
+    width: 85%;
+    padding: 2%;
+    bottom: 10px;
+    border-radius: 10px;
+    font-family: "gluten", cursive;
+    font-size: medium;
+}
+.oculto1{
+    display: none;
+}
+
+.texto1 {
+    animation-duration: 5s;
+    animation: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+/* escenario 2 */
+
+.flecha2 {
+    position: absolute;
+    top: 71%;
+    left: 47%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+
+@keyframes flecha2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+.img2-1 {
+    position: relative !important;
+}
+
+.meteorito2 {
+    position: absolute !important;
+    top: -5%;
+    left: -22%;
+    cursor: pointer;
+    animation: meteorito2 4s linear forwards;
+    animation-play-state: paused;
+}
+
+.mover-meteorito2 {
+    animation: meteorito2 4s linear forwards, meteoroscale 4s linear forwards;
+    animation-play-state: paused;
+}
+
+@keyframes meteorito2 {
+    0% {
+        translate: 10%;
+        opacity: 0;
+    }
+
+    100% {
+        translate: 80%;
+        opacity: 1;
+    }
+
+}
+
+
+
+/* personaje moviendose */
+
+.personaje2 {
+    position: absolute !important;
+    left: 50%;
+    top: 70%;
+    width: 10% !important;
+    cursor: pointer;
+    animation: personaje2 4s linear forwards;
+    animation-play-state: paused;
+
+}
+
+.mover-personaje2 { 
+    animation: personaje2 4s linear forwards;
+   /*  animation-play-state: paused; */
+   /*  animation-delay: 1s; */
+}
+
+@keyframes personaje2 {
+    0% {
+        transform: translateY(10%);
+        /* translateY: 10%; */
+    }
+
+    100% {
+        transform: translateY(-10%);
+        /* translateY: 60%; */
+    }
+
+}
+
+.jarron2 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.nube {
+    position: absolute !important;
+    top: 0%;
+    animation: 4s linear forwards
+}
+
+
+
+@keyframes nube {
+    0% {
+
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.cuadrotexto2 {
+    position: absolute;
+    left: 28rem;
+    top: 24rem;
+    background-color: whitesmoke;
+    height:8rem;
+    padding: 2%;
+    bottom: 10px;
+    border-radius: 10px;
+}
+.oculto2{
+    display: none;
+}
+
+.texto2 {
+    animation-duration: 5s;
+    animation: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.video3 {
+    background: url(./escenarioscodigo/escenario3video/);
+    position: absolute;
+    top: 0%;
+    cursor: pointer;
+    width: 40rem;
+    height: 31rem;
+    max-height: 1080px;
+}
+
+.fondo3 {
+    height: 30rem;
+}
+
+.flecha3 {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    width: 6rem;
+    animation: pulsate-fwd 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+.nube3 {
+    position: absolute !important;
+    top: 0%;
+    left: 0%;
+}
+
+.jarron {
+    position: absolute !important;
+    top: 0%;
+    left: 0%;
+}
+
+/* escenario 3 */
+
+.cuadrotexto3 {
+    position: absolute;
+    left: 7%;
+    background-color: whitesmoke;
+    height: 19%;
+    width: 85%;
+    padding: 2%;
+    bottom: 10px;
+    margin: 0 0 0 0;
+    border-radius: 10px;
+}
+
+.oculto3{
+    display: none;
+}
+
+.fondo3 {
+    background-color: #000;
+}
+
+
+/* escenario 4 */
+
+.flecha4{
+    position: absolute;
+    top: 52%;
+    left: 49%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+.img4-1 {
+    position: relative !important;
+    animation: kenburns-bottom 5s ease-out both;
+    animation-play-state: paused;
+    background-repeat: no-repeat;
+}
+
+@keyframes kenburns-bottom {
+    0% {
+              transform: scale(1) translateY(0);
+              transform-origin: 50% 84%;
+    }
+    100% {
+              transform: scale(1.25) translateY(15px);
+              transform-origin: top;
+    }
+  }
+/* METEORITO ESCENA 4 ESCALA */
+.oculto{
+    display: none;
+}
+.meteorito4 {
+    position: absolute !important;
+    cursor: pointer;
+    width: 5rem;
+    z-index: 111;
+    top: 25rem;
+    right: 28rem;
+    animation: meteoro 5.5s linear forwards;
+    animation-play-state: paused;
+}
+@keyframes meteoro {
+    to{
+        top: 35rem;
+    }
+}
+#mosquitos-img{
+    position: absolute !important;
+    cursor: pointer;
+    width: 10rem;
+    top: 27rem;
+    right: 28rem;
+    animation: volar 2s ease infinite alternate;
+    animation-play-state: paused;
+}
+@keyframes volar {
+ 0%{
+    transform: translateY(0);
+ }
+ 100%{
+    transform: translateY(2rem);
+ }   
+}
+.gusanos {
+    position: absolute !important;
+    z-index: 111;
+    top: 25rem;
+    right: 28rem;
+    width: 7rem;
+}
+
+.img4-3 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.cañada {
+    position: absolute !important;
+    top: 0%;
+    animation: cascada 2s linear forwards alternate infinite;
+}
+@keyframes cascada {
+    to{
+        transform: translateX(10px);
+    }
+}
+#mosquitos-container {
+    display: none;
+}
+
+.img-container {
+    transition: filter 1s ease-in-out;
+}
+
+.focus {
+    filter: blur(5px);
+}
+
+.cuadro-texto {
+    position: absolute;
+    top: 19rem;  
+    left: 38rem;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* escenario 5 */
+.e5 {
+   /*  position: relative !important; */
+    top: 0%;
+}
+.flecha5{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+.jarron5 {
+    position: absolute !important;
+    top: -2%;
+    left: -1%;
+}
+.profesor5{
+    position: absolute!important;
+    top: 6%!important;
+    left: -9%!important;
+    
+}
+.pueblerino5{
+    position: absolute!important;
+    top: 17%!important;
+    left: 29%!important;
+    
+}
+.jarronmensaje5{
+    position: absolute!important;
+    top: -1%!important;
+    left: -1%!important;
+}
+.p-profesor5{
+    position: absolute!important;
+    top: -1%!important;
+    left: -1%!important;
+}
+.p-pueblerino5{
+    position: absolute!important;
+    top: -1%!important;
+    left: -1%!important;
+}
+
+.nube5 {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 6 */
+.flecha6{
+    position: absolute;
+    top: 24rem;
+    left: 62rem;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+.img6-1 {
+    position: relative !important;
+}
+
+.cuadro-info {
+    position: absolute !important;
+    top: 0%;
+}
+
+.puerta6 {
+    position: absolute !important;
+    top: 0%;
+    cursor: pointer!important;
+}
+.token6{
+    position: absolute !important;
+    top: 0%;
+    left: 3%;
+}
+.profesor6{
+    position: absolute !important;
+    top: 0%;
+    left: -3%;
+}
+.p-profesor6{
+    position: absolute !important;
+    top: 6%;
+    left: 13%;
+}
+.palanca {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-pc6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-agua6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.contenedor6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 7 */
+
+.e7 {
+    position: relative !important;
+}
+
+.flecha7{
+    position: absolute;
+    top: 39%;
+    left: 46%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+.token7 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.chiko7 {
+    position: absolute !important;
+    top: 0%;
+    left: 2%;
+}
+.p-token7{
+    position: absolute !important;
+    top: 0%;
+    left: -6%;
+}
+.p-chiko7 {
+    position: absolute !important;
+    top: 0%;
+    left: 14%;
+}
+
+.personaje7 {
+    position: absolute !important;
+    top: 0%;
+    left: 15%;
+}
+.p-personaje7 {
+    position: absolute !important;
+    top: -22%;
+    left: 12%;
+}
+
+.arbusto7 {
+    position: absolute !important;
+    top: 0%;
+    left: -2%;
+}
+
+/* escenario 8 */
+.e8 {
+    position: relative !important;
+}
+.flecha8{
+    position: absolute;
+    top: 67%;
+    left: 9%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+.cascada8-1 {
+    position: absolute !important;
+    top: 0%;
+    display: none;
+}
+
+.cascada8-2 {
+    position: absolute !important;
+    top: 0%;
+    display: none;
+}
+
+.meteorito8 {
+    position: absolute !important;
+    top: 0%;
+    cursor: pointer;
+}
+
+.arbusto8 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.cascada8 {
+    position: absolute !important;
+    top: 0%;
+    display: none;
+}
+
+.zikar8{
+  position: absolute !important;
+    top: 0%;
+}
+.dengo8{
+  position: absolute !important;
+    top: 0%;
+}
+.token8{
+  position: absolute !important;
+    top: 0%;
+}
+.p-zikar8{
+  position: absolute !important;
+    top: 17%;
+    left: 1%;
+}
+.p-dengo8{
+  position: absolute !important;
+    top: -2%;
+    left: 10%;
+}
+.p-token8{
+  position: absolute !important;
+    top: 0%;
+}
+
+
+
+/* escenario 9 */
+
+.e9 {
+    position: relative !important;
+}
+.flecha9{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+.profesor9{
+    position: absolute !important;
+    width: 70%!important;
+    bottom: 0;
+    right: 11rem;
+}
+.texto9{
+    position: absolute !important;
+    top: 0%;
+    /* height:10em ; */
+    
+}
+.cartel-info9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.puerta9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.palanca9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-pc9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-agua9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 10 */
+.flecha10{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+.img10-1 {
+    position: relative !important;
+}
+
+.img10-2 {
+    position: absolute !important;
+    top: 0%;
+}
+.pueblerinoazul{
+ position: absolute !important;
+    top: 0%;
+}
+.pueblerinorojo{
+ position: absolute !important;
+    top: 0%;
+}
+.token10{
+ position: absolute !important;
+    top: 0%;
+}
+.profesor10{
+ position: absolute !important;
+    top: 0%;
+}
+.texto10{
+     position: absolute !important;
+    top: 0%;
+}
+
+
+/* AQUI VA EL CUADRO DE TEXTO */
+
+.texto {
+    margin: 50px;
+    padding: 100px;
+    background-color: azure;
+}
+
+.texto1 {
+    position: absolute;
+    top: 0%;
+}
+
+.texto2 {
+    font-family: "gluten", cursive;
+}
+
+.texto3 {
+    margin-right: 35%;
+}
+
+.escala-mundo {
+    transform-origin: 56% 99%; /* Escala desde el centro */
+    animation: escala 2s ease-in-out forwards;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes escala {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.2); /* Mantén la escala final */
+    }
+    
+  }

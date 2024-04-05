@@ -1,0 +1,57 @@
+/* escenario 6 */
+.flecha6{
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+.img6-1 {
+    position: relative !important;
+}
+
+.cuadro-info {
+    position: absolute !important;
+    top: 0%;
+}
+
+.puerta6 {
+    position: absolute !important;
+    top: 0%;
+    cursor: pointer!important;
+}
+.token6{
+    position: absolute !important;
+    top: 0%;
+    left: 3%;
+}
+.profesor6{
+    position: absolute !important;
+    top: 0%;
+    left: -3%;
+}
+.p-profesor6{
+    position: absolute !important;
+    top: 6%;
+    left: 13%;
+}
+.palanca {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-pc6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-agua6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.contenedor6 {
+    position: absolute !important;
+    top: 0%;
+}

@@ -1,0 +1,84 @@
+/* escenario 8 */
+.e8 {
+    position: relative !important;
+}
+.flecha8{
+    position: absolute;
+    top: 67%;
+    left: 9%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+.cascada8-1 {
+    position: absolute !important;
+    top: 0%;
+    display: none;
+}
+
+.cascada8-2 {
+    position: absolute !important;
+    top: 0%;
+    display: none;
+}
+
+.meteorito8 {
+    position: absolute !important;
+    top: 0%;
+    cursor: pointer;
+}
+
+.arbusto8 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.cascada8 {
+    position: absolute !important;
+    top: 0%;
+    display: none;
+}
+
+.zikar8{
+  position: absolute !important;
+    top: 0%;
+}
+.dengo8{
+  position: absolute !important;
+    top: 0%;
+}
+.token8{
+  position: absolute !important;
+    top: 0%;
+}
+.p-zikar8{
+  position: absolute !important;
+    top: 17%;
+    left: 1%;
+}
+.p-dengo8{
+  position: absolute !important;
+    top: -2%;
+    left: 10%;
+}
+.p-token8{
+  position: absolute !important;
+    top: 0%;
+}
+
+.movimiento8 {
+    animation: movimientoM 2s ease-in-out forwards;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes movimientoM {
+    0% {
+      transform: translate(0,0);
+    }
+    100% {
+      transform: translate(-400px,40px); /* Mantén la escala final */
+    }
+    
+  }
+
